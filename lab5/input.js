@@ -1,6 +1,5 @@
 window.onload = function () {
 	let targets = document.querySelectorAll('.target');
-	console.log(targets);
 	targets.forEach(target => {
 		let isOneClickMove = false;
 		let isDoubleClickMove = false;
